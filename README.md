@@ -1,14 +1,13 @@
-# Cryptopunk Clone with REACT
+# Modern Cryptopunk Clone with React.js
 
 #### PREREQUISITES:
 - Sign up for a thirdweb account <a href='https://thirdweb.com/'>HERE</a>
 - Install Node JS in your computer <a href='https://nodejs.org/en/'>HERE</a>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 ```
-npx create-react-app disney_plus_clone --template redux
+npx create-react-app cryptopunk_clone
 ```
 
 In the project directory, you can run:
@@ -49,7 +48,15 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
 ```
 npm i axios
 ```
+<div style="display: flex;">
+<img style="height: 150px;" src='https://user-images.githubusercontent.com/99184393/177667506-9e18cb7e-b0e1-4c77-8052-849480f324da.jpg' alt='' />
+<img style="height: 150px;" src='https://user-images.githubusercontent.com/99184393/177668067-c25b0dbd-a116-4125-915e-15213e724352.jpg' alt='' />
+<img style="height: 150px;" src='https://user-images.githubusercontent.com/99184393/177668106-a68b41f8-5938-4819-a1f9-30134461a8a5.jpg' alt='' />
+</div>
+</br>
+- Sign up for a thirdweb account <a href='https://thirdweb.com/'>HERE</a>
+
+![image](https://user-images.githubusercontent.com/99184393/177668971-9472fa30-6adc-4d2a-b7be-d2df3b2184a2.png)
