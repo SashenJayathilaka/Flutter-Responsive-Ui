@@ -1,4 +1,10 @@
-# whatsapp_ui
+<div align="center">
+
+  <img src="https://www.saviantconsulting.com/assets/img/flutter-logo.png" alt="logo" width="500" height="auto" />
+  
+ </div>
+
+# whatsapp ui
 
 A new Flutter project.
 
