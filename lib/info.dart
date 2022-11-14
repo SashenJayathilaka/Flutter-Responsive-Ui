@@ -1,86 +1,93 @@
 const info = [
   {
-    'name': 'Rivaan Ranawat',
+    'name': 'Sashen Hasindu',
     'message': 'Hey, how are you doing?',
     'time': '3:53 pm',
-    'profilePic':
-        'https://upload.wikimedia.org/wikipedia/commons/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg',
+    'profilePic': 'https://avatars.githubusercontent.com/u/99184393?v=4',
   },
   {
-    'name': 'John Doe',
-    'message': 'Hello, whats up',
+    'name': 'Liam Noah',
+    'message': 'That would be fun.',
     'time': '2:25 pm',
     'profilePic':
-        'https://www.socialketchup.in/wp-content/uploads/2020/05/fi-vill-JOHN-DOE.jpg',
+        'https://static.turbosquid.com/Preview/2014/05/16__04_27_45/tguy5_render04.jpga63a5f0e-5c90-4bdd-99f2-88c6dd24d224Original.jpg',
   },
   {
-    'name': 'Naman Ranawat',
-    'message': 'Hello, I want to sleep.',
+    'name': 'Charlotte Amelia',
+    'message': 'That sounds good.',
     'time': '1:03 pm',
     'profilePic':
-        'https://media.cntraveler.com/photos/60596b398f4452dac88c59f8/16:9/w_3999,h_2249,c_limit/MtFuji-GettyImages-959111140.jpg',
+        'https://th.bing.com/th/id/OIP.zIo-N5aDMEiQg8NvElq8RgHaHa?pid=ImgDet&rs=1',
   },
   {
-    'name': 'Dad',
-    'message': 'Call me, have some work',
+    'name': 'Evelyn',
+    'message': 'I will call you later.',
     'time': '12:06 pm',
     'profilePic':
-        'https://pbs.twimg.com/profile_images/1419974913260232732/Cy_CUavB.jpg',
+        'https://th.bing.com/th/id/R.19820c4e620bce72fddea75a5f96eba0?rik=iXfMIB7NGe2tKg&pid=ImgRaw&r=0',
   },
   {
-    'name': 'Mom',
-    'message': 'You ate food?',
+    'name': 'Oliver Elijah',
+    'message': 'See you later.',
     'time': '10:00 am',
     'profilePic':
-        'https://uploads.dailydot.com/2018/10/olli-the-polite-cat.jpg?auto=compress%2Cformat&ixlib=php-3.3.0',
+        'https://th.bing.com/th/id/OIP.umVGCLIqBM2O52PL6B9dswHaHa?pid=ImgDet&w=900&h=900&rs=1',
   },
   {
-    'name': 'Jurica',
-    'message': 'Yo!!!!! Long time, no see!?',
+    'name': 'James',
+    'message': 'Bye.',
     'time': '9:53 am',
     'profilePic':
-        'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
+        'https://yt3.ggpht.com/a/AATXAJy4Fb5JW3pqVDOi-Zj3t7W8EfFQkvJdncJ_GoqRxQ=s900-c-k-c0xffffffff-no-rj-mo',
   },
   {
-    'name': 'Albert Dera',
-    'message': 'Am I fat?',
+    'name': 'Adeline',
+    'message': 'Why is that?',
     'time': '7:25 am',
     'profilePic':
-        'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
+        'https://th.bing.com/th/id/OIP.vJmT1rT_xAYi3Op1rPbG3QHaHa?pid=ImgDet&rs=1',
   },
   {
-    'name': 'Joseph',
-    'message': 'I am from International Olym...',
+    'name': 'Oscar Lia',
+    'message': "It's okay.",
     'time': '6:02 am',
     'profilePic':
-        'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
+        'https://th.bing.com/th/id/OIP.cTmuj9Pob3-vlUe39anKmQHaE8?pid=ImgDet&w=768&h=512&rs=1',
   },
   {
-    'name': 'Sikandar',
-    'message': 'Lets Code!',
+    'name': 'Joseph Jack',
+    'message': "I'll see you tomorrow then.",
     'time': '4:56 am',
     'profilePic':
-        'https://images.unsplash.com/photo-1619194617062-5a61b9c6a049?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60',
+        'https://th.bing.com/th/id/OIP.U0liQVbZyHJ887rXokx7xAHaJR?pid=ImgDet&rs=1',
   },
   {
-    'name': 'Ian Dooley',
-    'message': 'Images by Unsplash',
+    'name': 'Tom Json',
+    'message': "Let's do it.",
     'time': '1:00 am',
     'profilePic':
-        'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
+        'https://th.bing.com/th/id/OIP.b1vegqReZ2T6_JO7oqkH9wHaIr?pid=ImgDet&rs=1',
   },
 ];
 
 const messages = [
-  {"isMe": false, "text": "Hey What is up with you!!", "time": "10:00 am"},
-  {"isMe": true, "text": "im fine,wbu?", "time": "11:00 am"},
-  {"isMe": false, "text": "I am great man!", "time": "11:01 am"},
+  {"isMe": false, "text": "Hi, how are you doing?", "time": "10:00 am"},
+  {"isMe": true, "text": "I'm fine. How about yourself?", "time": "11:00 am"},
   {
     "isMe": false,
-    "text": "Just messaged cuz I had some work.",
+    "text": "I'm pretty good. Thanks for asking.",
     "time": "11:01 am"
   },
-  {"isMe": true, "text": "Obviously, say", "time": "11:03 am"},
+  {
+    "isMe": false,
+    "text": "No problem. So how have you been?",
+    "time": "11:01 am"
+  },
+  {
+    "isMe": true,
+    "text": "I've been great. What about you?",
+    "time": "11:03 am"
+  },
   {
     "isMe": false,
     "text": "haha I wanted you to check out my new channel ^^",
@@ -88,35 +95,39 @@ const messages = [
   },
   {
     "isMe": true,
-    "text": " Sure, what is the channel name?",
+    "text": "I've been good. I'm in school right now.",
     "time": "11:05 am"
   },
   {
     "isMe": false,
-    "text": "Rivaan Ranawat",
+    "text": "What school do you go to?",
     "time": "11:06 am",
   },
   {
     "isMe": true,
-    "text": "Looks great to me!",
+    "text": "I go to PCC.",
     "time": "11:15 am",
   },
-  {"isMe": false, "text": "Thanks bro!", "time": "11:17 am"},
-  {"isMe": false, "text": "Did you subscribe?", "time": "11:16 am"},
-  {"isMe": true, "text": "Yes, surely bro!", "time": "11:17 am"},
+  {"isMe": false, "text": "Do you like it there?", "time": "11:17 am"},
   {
     "isMe": false,
-    "text": "Cool, did you like the content?",
+    "text": "It's okay. It's a really big campus.",
+    "time": "11:16 am"
+  },
+  {"isMe": true, "text": "Good luck with school.", "time": "11:17 am"},
+  {
+    "isMe": false,
+    "text": "Thank you very much.",
     "time": "11:18 am",
   },
   {
     "isMe": true,
-    "text": "I loved it?",
+    "text": "See you later.",
     "time": "11:19 am",
   },
   {
     "isMe": false,
-    "text": "OMG! Woah! Thanks!",
+    "text": "Bye.",
     "time": "11:20 am",
   },
 ];
