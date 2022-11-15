@@ -20,7 +20,7 @@ class WebChatAppBar extends StatelessWidget {
             children: [
               const CircleAvatar(
                 backgroundImage: NetworkImage(
-                  'https://upload.wikimedia.org/wikipedia/commons/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg',
+                  'https://avatars.githubusercontent.com/u/99184393?v=4',
                 ),
                 radius: 20,
               ),
