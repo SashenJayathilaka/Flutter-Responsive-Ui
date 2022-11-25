@@ -5,7 +5,7 @@
   # Creating a responsive Flutter apps
 
   <p>
-Flutter allows you to create apps that self-adapt to the device’s screen size and orientation.
+Flutter allows you to create apps that self-adapt to the device’s screen size and orientation
   </p>
 
 <!-- Badges -->
