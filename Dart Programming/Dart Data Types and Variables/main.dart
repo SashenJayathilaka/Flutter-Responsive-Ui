@@ -23,6 +23,6 @@ void main() {
   print(count);
   print(hexValue);
   print(percent);
-  print(exponents)
-  print(sName)
+  print(exponents);
+  print(sName);
 }
