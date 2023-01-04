@@ -31,6 +31,6 @@ void main() {
   String name = "sashen";
 
   // ignore: unused_local_variable
-  String nameToPrint = name ?? "Guest User";
-  print(nameToPrint);
+  /*  String nameToPrint = name ?? "Guest User";
+  print(nameToPrint); */
 }
