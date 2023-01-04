@@ -7,6 +7,11 @@ void main() {
 
   const PI = 3.14;
   const double gravity = 9.8;
+
+  print(countryName);
+  print(PI);
+  print(gravity);
+  print(cityName);
 }
 
 class Circle {
