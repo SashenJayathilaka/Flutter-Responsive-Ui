@@ -1,4 +1,4 @@
-# my_app
+# tutorial
 
 A new Flutter project.
 
