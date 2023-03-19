@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors, prefer_const_literals_to_create_immutables, avoid_unnecessary_containers, must_be_immutable, sort_child_properties_last, avoid_print
+// ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors, prefer_const_literals_to_create_immutables, avoid_unnecessary_containers, must_be_immutable, sort_child_properties_last, avoid_print, unused_import, sized_box_for_whitespace
 
 import 'package:flutter/material.dart';
 import 'package:device_preview/device_preview.dart';
@@ -18,106 +18,105 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Tutorial Stateful & Stateless Widget',
+      title: 'Flutter Tutorial ListView & ListTile',
       theme: ThemeData(
         brightness: Brightness.dark,
         primarySwatch: Colors.orange,
       ),
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: MyHomePage(),
     );
   }
 }
 
-/* class HomePage extends StatelessWidget {
-  int count = 0;
-
-  void increment() {
-    count = count + 1;
-    print(count);
-  }
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Stateful & Stateless Widget"),
-        backgroundColor: Colors.blue,
-      ),
-      body: Center(
-        child: Container(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Text(
-                count.toString(), // `$count
-                style: TextStyle(
-                  fontSize: 40.0,
-                  height: 6.0,
-                ),
-              ),
-              Text("Application Body Two", style: TextStyle(fontSize: 25.0)
-                  //style: Theme.of(context).textTheme.displayMedium,
-                  ),
-            ],
-          ),
-        ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.add),
-        onPressed: increment,
-      ),
-    );
-  }
-} */
-
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
-
-  @override
-  State<HomePage> createState() => _HomePageState();
+  State<MyHomePage> createState() => _MyHomePageState();
 }
 
-class _HomePageState extends State<HomePage> {
-  int count = 0;
-
-  void increment() {
-    setState(() {
-      count = count + 1;
-      print(count);
-    });
-  }
+class _MyHomePageState extends State<MyHomePage> {
+  var items = List<String>.generate(100, (index) => 'Item $index');
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Stateful & Stateless Widget"),
-        backgroundColor: Colors.blue,
-      ),
-      body: Center(
-        child: Container(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Text(
-                count.toString(), // `$count
-                style: TextStyle(
-                  fontSize: 40.0,
-                  height: 6.0,
-                ),
-              ),
-              Text("Application Body Two", style: TextStyle(fontSize: 25.0)
-                  //style: Theme.of(context).textTheme.displayMedium,
-                  ),
-            ],
+        appBar: AppBar(
+          backgroundColor: Colors.pink.shade400,
+          toolbarHeight: 100,
+          elevation: 14,
+          title: Text(
+            'ListView & ListTile',
+            style: TextStyle(
+              color: Colors.white,
+            ),
           ),
+          actions: [
+            Row(
+              children: [
+                Container(
+                  height: 40,
+                  width: 40,
+                  alignment: Alignment.center,
+                  decoration: BoxDecoration(boxShadow: [
+                    BoxShadow(
+                        blurRadius: 7, spreadRadius: 3, color: Colors.pink)
+                  ], shape: BoxShape.circle, color: Colors.pink.shade400),
+                  child: Icon(
+                    Icons.search,
+                    size: 20,
+                    color: Colors.white,
+                  ),
+                ),
+                SizedBox(
+                  width: 10,
+                ),
+                Container(
+                  height: 40,
+                  width: 40,
+                  alignment: Alignment.center,
+                  decoration: BoxDecoration(boxShadow: [
+                    BoxShadow(
+                        blurRadius: 7, spreadRadius: 3, color: Colors.pink)
+                  ], shape: BoxShape.circle, color: Colors.pink.shade400),
+                  child: Icon(
+                    Icons.notifications,
+                    size: 20,
+                    color: Colors.white,
+                  ),
+                ),
+                SizedBox(
+                  width: 10,
+                ),
+                Container(
+                  height: 40,
+                  width: 40,
+                  alignment: Alignment.center,
+                  decoration: BoxDecoration(boxShadow: [
+                    BoxShadow(
+                        blurRadius: 7, spreadRadius: 3, color: Colors.pink)
+                  ], shape: BoxShape.circle, color: Colors.pink.shade400),
+                  child: Icon(
+                    Icons.logout,
+                    size: 20,
+                    color: Colors.white,
+                  ),
+                ),
+                SizedBox(
+                  width: 26,
+                )
+              ],
+            )
+          ],
         ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.add),
-        onPressed: increment,
-      ),
-    );
+        body: ListView.builder(
+          itemCount: items.length,
+          itemBuilder: (context, index) {
+            return ListTile(
+              title: Text(items[index]),
+            );
+          },
+        ));
   }
 }
