@@ -3,8 +3,8 @@
 import 'package:flutter/material.dart';
 import 'package:device_preview/device_preview.dart';
 
-import 'form/form-test.dart';
-import 'form/form.dart';
+import 'form-test.dart';
+import 'form.dart';
 
 void main() {
   runApp(
