@@ -66,7 +66,7 @@ Flutter allows you to create apps that self-adapt to the device’s screen size 
 <a href="#facebook"><img src="https://cdn.iconscout.com/icon/free/png-512/flutter-2038877-1720090.png" alt="Facebook" width="30" height="30" /></a>
 <a href="#instagram"><img src="https://i.pinimg.com/originals/a6/75/cb/a675cb93b75d5f1656c920dceecdcb38.png" alt="Instagram" width="30" height="30" /></a>
 
-A new Flutter project.
+A new Flutter project
 
 ## 	:toolbox: Getting Started
 ### :bangbang: Prerequisites
