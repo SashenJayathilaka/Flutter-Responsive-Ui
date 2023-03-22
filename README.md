@@ -87,7 +87,7 @@ samples, guidance on mobile development, and a full API reference.
 
 ![](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
-Clone the project
+Clone the project.
 
 ```bash
   git clone https://github.com/SashenJayathilaka/Flutter-Responsive-Ui.git
