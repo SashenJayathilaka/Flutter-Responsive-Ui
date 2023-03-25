@@ -3,8 +3,8 @@
 import 'package:flutter/material.dart';
 import 'package:device_preview/device_preview.dart';
 
-import 'api/future_Api.dart';
-import 'components/appBar/applicationBar.dart';
+import '../components/appBar/applicationBar.dart';
+import 'future_Api.dart';
 
 void main() {
   runApp(
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Tutorial',
+      title: 'Flutter Tutorial / Future API',
       theme: ThemeData(
         brightness: Brightness.light,
         primarySwatch: Colors.orange,
@@ -38,7 +38,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: ApplicationBar("Stream & Stream Builder"),
+      appBar: ApplicationBar("Future API"),
       body: Center(
           child: Container(
         height: double.infinity,
@@ -47,7 +47,7 @@ class Home extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              "Stream & Stream Builder",
+              "Future API",
               style: TextStyle(
                 fontSize: 30.0,
                 height: 5.00,

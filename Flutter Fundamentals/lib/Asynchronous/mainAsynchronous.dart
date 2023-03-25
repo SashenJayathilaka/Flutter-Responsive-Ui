@@ -3,8 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:device_preview/device_preview.dart';
 
-import 'api/future_Api.dart';
-import 'components/appBar/applicationBar.dart';
+import 'Asynchronous.dart';
 
 void main() {
   runApp(
@@ -21,7 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Tutorial',
+      title: 'Flutter Tutorial / Asynchronous Programming',
       theme: ThemeData(
         brightness: Brightness.light,
         primarySwatch: Colors.orange,
@@ -38,40 +37,27 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: ApplicationBar("Stream & Stream Builder"),
+      appBar: AppBar(
+        title: Text(" Asynchronous Programming"),
+      ),
       body: Center(
-          child: Container(
-        height: double.infinity,
-        width: double.infinity,
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text(
-              "Stream & Stream Builder",
-              style: TextStyle(
-                fontSize: 30.0,
-                height: 5.00,
+        child: ElevatedButton(
+          child: Text("Tap on this"),
+          style: ElevatedButton.styleFrom(
+            primary: Colors.red,
+            elevation: 0,
+          ),
+          onPressed: () {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (_) {
+                  return Asynchronous();
+                },
               ),
-            ),
-            ElevatedButton(
-              child: Text("Tap on this"),
-              style: ElevatedButton.styleFrom(
-                primary: Colors.red,
-                elevation: 0,
-              ),
-              onPressed: () {
-                Navigator.of(context).push(
-                  MaterialPageRoute(
-                    builder: (_) {
-                      return FutureAPI();
-                    },
-                  ),
-                );
-              },
-            ),
-          ],
+            );
+          },
         ),
-      )),
+      ),
     );
   }
 }
